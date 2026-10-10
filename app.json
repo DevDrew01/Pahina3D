@@ -1,0 +1,25 @@
+{
+  "expo": {
+    "name": "Pahina3D",
+    "slug": "Pahina3D",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "automatic",
+    "android": {
+      "package": "com.pahina3d.app",
+      "permissions": [
+        "CAMERA",
+        "READ_EXTERNAL_STORAGE",
+        "WRITE_EXTERNAL_STORAGE"
+      ]
+    },
+    "plugins": [
+      [
+        "expo-camera",
+        {
+          "cameraPermission": "Allow Pahina3D to scan and unwarp crumpled paper documents."
+        }
+      ]
+    ]
+  }
+}
